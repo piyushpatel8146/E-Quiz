@@ -1,7 +1,7 @@
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./Pages/Layout/Layout";
-import Home from "./Pages/Home/Home";
+import Home1 from "./Pages/Home/Home1";
 import Login from "./Pages/Login/Login";
 import Register from "./Pages/Register/Register";
 import Quiz from "./Pages/Quiz/Quiz";
@@ -12,7 +12,7 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
+          <Route index element={<Home1 />} />
           <Route path="login" element={<Login />} />
           <Route path="Categories" element={<Categories />} />
         
